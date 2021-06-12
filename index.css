@@ -1,10 +1,91 @@
-.container{
-  width: 100%;
+body{
+  background-color: #F15A29;
+  color: black;
   margin: 0;
   padding: 0;
 }
 header{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 600px;
+  background-image: url('./assets/backgrounds/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#bar div{
+  border-bottom: 2px solid white;
+  margin: 0.5%;
+  width: 2%;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+
+/* .container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-color: #F15A29; */
+}
+/* header{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 400px;
   background-image: url(./assets/backgrounds/landing.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-}
+  background-size: cover;
+  
+  
+} */
+/* #bar div{
+  border-bottom: 2px solid white;
+  margin: 0.5%;
+  width: 2%;
+  position: relative;
+  top: 20px;
+  left: 10px;
+} */
+/* #logo{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+} */
+/* #logo p{
+  text-transform: capitalize;
+  color: white;
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+} */
+/* #logo p > span{
+  font-weight: bold;
+} */
+
+/* #foodtop{
+  display: flex;
+  flex-direction: row; */
+
+/* }
+#foodtop div > p:first-child{
+  background-color: ;
+  height: 50px;
+} */
+
+/* to be deleted */
+/* footer{
+  background-color: black;
+} */ */
