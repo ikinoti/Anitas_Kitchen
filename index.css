@@ -1,0 +1,10 @@
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-image: url(./assets/backgrounds/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
