@@ -43,6 +43,90 @@ header{
 #logo > p > span{
   font-weight: bold;
 }
+.foodtop{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  padding: 30px;
+}
+#breakfirst, #lunch, #dinner{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.grid-item{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* article section styling */
+.article{
+  background-color: white;
+  color: black;
+}
+#food{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+#foodimg{
+  border: 10px solid white;
+  box-shadow: 0 0 10px rgba(155, 151, 151, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  margin: auto;
+  margin-top: 100px;
+}
+#foodimg img{
+  margin:;
+}
+/* foodtop styling */
+
+
+/* #foodtop >div:first-child{
+  float: left;
+  padding: 15px;
+} */
+/* #foodtop > #breakfast{
+  float: left;
+  padding: 30px;
+} */
+/* #foodtop > #lunch{
+  float: left;
+  padding: 30px;
+} */
+/* #foodtop > #dinner{
+  float: left;
+  padding: 30px;
+} */
+
+/* #foodtop > div > p:first-child{
+  background-color: rgba(218, 218, 218, 0.8);
+  padding: 30px;
+  width: 25%;
+} */
+/* #foodtop > div > p:nth-child(2){
+  padding: 25px 0;
+  margin: 0;
+  width: 25%;
+  border: 1px;
+
+} */
+/* #foodtop > #breakfast{
+  width: 25%;
+  padding: 100px;
+  color: white;
+  /* text-align: center; */
+  background-image: url('./assets/foodtop/breakfast.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
+
+
+
+
+
 }
 /* header{
   position: relative;
