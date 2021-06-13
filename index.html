@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anitas Kitchen</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -52,7 +54,7 @@
           <h2>Fast Food</h2>
           <p>You'll love our delicous fast food</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium quam error! Minima distinctio sed eveniet quisquam accusantium, debitis sit necessitatibus? Dolorum, veritatis. Eligendi tempora iste saepe doloremque nulla odit voluptate laudantium molestiae architecto velit accusantium, beatae hic quo fuga quasi quis tenetur, reprehenderit delectus nisi. Ea unde eveniet ex optio, veritatis quas iure accusantium asperiores veniam magnam neque nemo?</p>
-          <a href="#">View Gallery</a>
+          <input type="submit" id="gallery" value="VIEW GALLERY &#8594">
         </div>
       </div>
       <div id="drinks">
@@ -60,7 +62,7 @@
           <h2>Drinks</h2>
           <p>We also produce delicious drinks</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam molestias voluptatum qui doloremque vel nulla nostrum, iure, voluptas earum cumque ipsam, porro ipsum libero et unde. Nemo eaque corporis magnam nihil? Ullam ipsa in laborum aliquam amet magnam temporibus quae dolore ipsam id maiores molestias, dolorem tempore, facere incidunt architecto iure possimus corporis ut vero. Eius maiores eligendi est tenetur explicabo provident consequuntur ad nihil incidunt. Odio tempore maxime tenetur?</p>
-          <a href="#">View Gallery</a>
+          <input type="submit" id="gallery" value="VIEW GALLERY &#8594">
         </div>
         <div id="drinksimg">
           <img src="./assets/drink1.jpg" alt="">
@@ -68,27 +70,39 @@
         </div>
       </div>
     </div>
-    <div class="menu">
-      <ul>
-        <li><a href="#">Fast Food</a>
-          <div id="chickenb">
+
+
+    <div class="foodtype">
+      <div id="foodtype">
+        <table>
+          <tr>
+            <th id="fast-food">Fast Food</th>
+            <th>Drinks</th>
+            <th>Chicken</th>
+            <th>Rice</th>
+          </tr>
+        </table>
+        <div id="food-items">
+          <p id="left-arrow">&#60</p>
+          <div id="food">
             <img src="./assets/fastfood/chickenBurger.jpg" alt="">
             <p>Chicken Burger</p>
           </div>
-          <div id="beefb">
+          <div id="food">
             <img src="./assets/fastfood/beefBurger.jpg" alt="">
             <p>Chicken Burger</p>
           </div>
-          <div id="pizza">
+          <div id="food">
             <img src="./assets/fastfood/chickenPizza.jpg" alt="">
             <p>Chicken Burger</p>
           </div>
-        </li>
-        <li><a href="#">Drinks</a></li>
-        <li><a href="#">Chicken</a></li>
-        <li><a href="#">Rice</a></li>
-      </ul>
+          <p id="right-arrow">&#62;</p>
+
+        </div>
+      </div>
     </div>
+
+
     <div class="customers">
       <section>
         <div id="customers">
@@ -96,11 +110,11 @@
           <p>George Richard</p>
           <p>Great food Menu is awesome, there foods are not only great but also in the right price. i'll highly recomment them :)</p>
           <div id="customer-image">
-            <p> < </p>
+            <p id="left-arrow">&#60;</p>
             <img src="./assets/customers/p1.png" alt="">
             <img src="./assets/customers/p2.png" alt="">
             <img src="./assets/customers/p3.png" alt="">
-            <p> > </p>
+            <p id="right-arrow">&#62;</p>
           </div>
         </div>
         <div id="about">
@@ -109,18 +123,22 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione vero nisi harum enim velit similique consequuntur exercitationem aliquam incidunt culpa, quas blanditiis, tenetur, eum repudiandae illo atque magni! A atque aspernatur commodi velit, quo nesciunt tenetur laudantium hic cumque inventore dolorum fugiat amet quasi iure voluptates quos nulla mollitia odio.
           </p>
         </div>
-      </div>
       </section>
+    </div>
+      
       
 
-    <div class="feedback">
+    <div class="register">
       <p>Get our daily food items delivered to you email</p>
-      <input type="email" placeholder="Your email">
-       <button><a href="#"></a>Subscribe</button>
+      <input type="email" id="email" placeholder="Your email">
+      <button><a href="#"></a>Subscribe</button>
     </div>
     <footer>
-      <img src="./assets/footerlogos/logo_white.png" alt="footer logo">
-      <h3>Menu</h3>
+      <div id="footer-logo">
+        <img src="./assets/footerlogos/logo_white.png" alt="footer logo">
+        <h1>Menu</h1>
+      </div>
+      
       <p>That What we Are</p>
       <div id="sociamedia">
         <img src="./assets/footerlogos/facebook.png" alt="facebook">
