@@ -201,100 +201,31 @@ section{
   justify-content: space-around; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-/* header{
-  position: relative;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  height: 400px;
-  background-image: url(./assets/backgrounds/landing.jpg);
+.register{
+  background-image: url('./assets/backgrounds/subscribe.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  
-  
-} */
-/* #bar div{
-  border-bottom: 2px solid white;
-  margin: 0.5%;
-  width: 2%;
-  position: relative;
-  top: 20px;
-  left: 10px;
-} */
-/* #logo{
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-} */
-/* #logo p{
-  text-transform: capitalize;
-  color: white;
-  font-size: 30px;
-  width: 30%;
+  background-size: 100% 100%;
   text-align: center;
-} */
-/* #logo p > span{
-  font-weight: bold;
-} */
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+  color: white;
+  font-size: 27px;
+}
 
-/* #foodtop{
-  display: flex;
-  flex-direction: row; */
-
-/* }
-#foodtop div > p:first-child{
-  background-color: ;
-  height: 50px;
-} */
-
-/* to be deleted */
-/* footer{
-  background-color: black;
-} */ */
+#email{
+  background-color: lightgray;
+  width: 300px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin: 20px;
+  opacity: 0.3;
+  
+}
+button{
+  background-color: #F15A29;
+  height: 30px;
+  padding: 5px 30px;
+  color: white;
+}
