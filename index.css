@@ -75,48 +75,51 @@ table{
 #dinner{
   background-image: url('./assets/foodtop/dinner.jpg');
 }
-
-
-
-
-
-
-
 /* article section styling */
-/* .article{
+.article{
   background-color: white;
-  color: black;
-} */
-/* #food, #drinks {
+  height: auto;
+  width: auto;
+  padding: 40px;
+}
+
+#food, #drinks {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 60%;
-  margin: auto;
-} */
-
-/* #foodimg, #drinksimg{
+}
+#foodimg, #drinksimg{
   border: 10px solid white;
   box-shadow: 0 0 10px rgba(155, 151, 151, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  margin: auto;
-  margin-top: 100px;
-} */
-
-/* #foodinf {
+  width: 50%;
+  margin-top: 50px;
+  
+}
+#foodinf {
   margin-left: 60px;
   text-align: left;
-} */
-
-/* #drinksimg{
+  width: 50%;
+}
+#drinksimg{
   display: flex;
   flex-direction: row;
-  margin-bottom: 50px;
-} */
-/* #drinksinfo{
+}
+
+#drinksinfo{
   margin-right: 60px;
   text-align: right;
-} */
+}
+
+
+
+
+
+
+
+
+
+
 
 /* .menu{
   background-image: url('./assets/backgrounds/foodsBg.jpg');
