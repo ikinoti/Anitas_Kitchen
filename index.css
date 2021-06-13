@@ -48,7 +48,7 @@ header{
   margin: 0px;
   width: 100%;
   height: 100%;
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
   font-style: normal;
 }
 #happy-hr{
@@ -63,65 +63,24 @@ table{
   flex: 1;
   text-align: center;
   padding-top: 50px;
-  /* background-size: 100% 100%; */
-  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
-#break
+#breakfast{
+  background-image: url('./assets/foodtop/breakfast.jpg');
+}
+#lunch{
+  background-image: url('./assets/foodtop/lunch.jpg');
+}
+#dinner{
+  background-image: url('./assets/foodtop/dinner.jpg');
+}
 
-/* #bar div{
-  border-bottom: 2px solid white;
-  width: 2%;
-  position: relative;
-  top: 50px;
-  left: 30px;
-  margin: 0.5%;
-} */
-/* #logo{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-} */
-/* #logo > p{
-  font-size: 50px;
-  text-align: center;
-  color: white;
-  text-transform: capitalize;
-} */
 
-/* #logo > p > span{
-  font-weight: bold;
-} */
 
-/* .foodtop{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto;
-  padding: 30px;
-  width: 100%;
-  height: 250px;
-} */
-/* #happy-hr{
-  grid-row-start: 1;
-  grid-row-end: 2;
-  text-align: center;
-  background-color: lightgray;
-} */
 
-/* #party-hr{
-  grid-row-start: 2;
-  grid-row-end: 3;
-  text-align: center;
-} */
-/* #breakfast, #lunch, #dinner{
-  grid-row-start: 1;
-  grid-row-end: 3;
-  text-align: center;
-} */
 
-/* .grid-item{
-  border: 1px solid rgba(0, 0, 0, 0.1);
-} */
+
 
 /* article section styling */
 /* .article{
